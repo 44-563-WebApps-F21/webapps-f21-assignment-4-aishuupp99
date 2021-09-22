@@ -35,3 +35,47 @@ p.stagedirection:hover{
     color: black;
     background-color: lightseagreen;
 }
+
+table{
+    margin: 40px;
+}
+th{
+    border: 1px solid yellowgreen;
+    background-color: cornsilk;
+    padding: 300px;
+    text-align: center;
+}
+td{
+    border: 1px solid green;
+    background-color:darkmagenta;
+    padding: 20px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: lightskyblue;
+}
+.navigation{
+    width: 100%;
+    background-color: lime;
+    overflow: auto;
+}
+.navigation a {
+    float: left;
+    padding: 15px;
+    color:midnightblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation a:hover{
+    background-color: olivedrab;
+}
+.book{
+    background-color: limegreen;
+}
+
+@media screen and (max-width: 500px){
+    .navbar a{
+        float: none;
+        display: block;
+    }
+}
