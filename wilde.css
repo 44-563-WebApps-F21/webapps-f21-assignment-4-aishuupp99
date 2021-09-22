@@ -1,19 +1,19 @@
-h4.LORD WINDERMERE{
+h5.LORD WINDERMERE{
 
     font-family: sans-serif;
     font-size: 20px;
     color:yellowgreen;
 }
-h4.LORD WINDERMERE:hover{
+h5.LORD WINDERMERE:hover{
     text-shadow: 2px 2px 5px violet;
     border-style: solid;
 }
-h4.MRS.ERLYNNE{
+h5.MRS.ERLYNNE{
     font-family: sans-serif;
     font-size: 20px;
     color:greenyellow;
 }
-h4.MRS.ERLYNNE:hover{
+h5.MRS.ERLYNNE:hover{
     text-shadow: 2px 2px 5px pink;
     border-style: solid;
 }
@@ -37,7 +37,7 @@ p.stagedirection:hover{
 }
 
 table{
-    border: 1px solid blue;
+    border: 1px solid rgb(163, 163, 170);
     width: 50%;
     height: 50%;
     margin-top: 50px;
@@ -45,7 +45,7 @@ table{
     margin-right: 50px;
     margin-left: 50px;
 }
-th{
+tr{
     border: 1px solid yellowgreen;
     background-color: cornsilk;
     padding: 20px;
@@ -74,14 +74,4 @@ tr:nth-child(even){
 }
 .navigation a:hover{
     background-color: olivedrab;
-}
-.book{
-    background-color: limegreen;
-}
-
-@media screen and (max-width: 500px){
-    .navbar a{
-        float: none;
-        display: block;
-    }
 }
